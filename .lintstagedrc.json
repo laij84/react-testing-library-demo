@@ -1,0 +1,7 @@
+{
+    "*.{ts,tsx}": [
+        "yarn tsc",
+        "yarn test --findRelatedTests",
+        "eslint --fix"
+    ]
+}
